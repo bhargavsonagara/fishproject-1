@@ -27,6 +27,7 @@ class User(AbstractUser):
     class Meta:
         verbose_name_plural = "Owner Details"
 
+
 class Boat_Details(models.Model):
     MATERIAL_WOOD = 'W'
     MATERIAL_IRON = 'I'
